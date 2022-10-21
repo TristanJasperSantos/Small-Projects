@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .150rem;
+    line-height: 1.6
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    opacity: .4rem;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    margin: 1rem;
+    
+}
+#underline{
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    height: .2rem;
+    background-color: aqua;
+}
+#container{
+    max-height: fit-content;
+    position:static;
+    margin-top: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem;
+}
+#container figure{
+    height: 20rem;
+    width: 20rem;
+    box-shadow: .8rem -.8rem 0rem steelblue;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#container h4{
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+#container #description{
+    min-height: 10rem;
+    max-height: 10rem;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+#container #profession{
+    color: hsl(205, 78%, 60%);
+    margin-bottom: 1rem;
+}
+#container #btn-random{
+    color: hsl(205, 78%, 60%);
+    background-color: lightblue;
+    border: solid hsl(205, 78%, 60%) .175rem;
+    border-radius: .4rem;
+    padding: .2rem;
+    font-weight: 700;
+}
+#btn-container button{
+    background: transparent;
+    border: none;
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: hsl(205, 78%, 60%);
+}

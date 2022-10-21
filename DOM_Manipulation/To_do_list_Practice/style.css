@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(/images/pexels-breakingpic-3243.jpg) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 40%;
+    height: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: 0 0 .5rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+#input-container{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+#container input{
+    flex: 4;
+    height: 2rem;
+    margin-right: .5rem;
+    border-radius: .6rem;
+    padding: .8rem;
+    border: solid black .1rem;
+}
+button{
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.3rem;
+    border-radius: .7rem;
+    height: 2.2rem;
+}
+#container #add-input{
+    flex: 1;
+    color: green;
+    border: solid green .150rem;
+
+}
+#container #addbutton:hover{
+    background-color: green;
+    color: white;
+}
+#task{
+    background-color: wheat;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+#task li{
+    font-weight: 600;
+    flex: 4;
+    list-style: none;
+    margin: 0rem .5rem 0rem 1.5rem;
+}
+#task #check-task{
+    flex: 1;
+    color: orange;
+    border: orange solid .150rem;
+    margin-right: .5rem;
+}
+#task #delete-task{
+    margin-right: 1.5rem;
+    flex: 1;
+    color: gray;
+    border: gray solid .150rem;
+}
+#task #check-task:hover{
+    background-color: orange;
+    color: white;
+}
+#task #delete-task:hover{
+    background-color: gray;
+    color: white;
+}

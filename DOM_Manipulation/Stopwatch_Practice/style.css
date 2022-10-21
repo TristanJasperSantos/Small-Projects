@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url(/images/pexels-giallo-859895.jpg) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    border-radius: 3rem;
+    min-width: 30rem;
+    min-height: 20rem;
+    box-shadow: 0 0 1rem;
+}
+#timer{
+    padding: 3rem;
+    margin: 1rem;
+    font-size: 4rem;
+}
+#buttons button{
+    margin: .5rem;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .2rem;
+    transition: .5s;
+}
+#play{
+    background-color: green;
+}
+#reset{
+    background-color: red;
+}
+#pause{
+    background-color: orange;
+}
